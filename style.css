@@ -14,3 +14,22 @@ hr {
   border: 0;
   box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
 }
+#logo-list ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: none;
+}
+
+#logo-list li {
+  display: inline;
+  padding: 3px;
+  float: right;
+}
+
+#logo-list li a {
+  display: block;
+  color: none;
+  text-align: center;
+}
