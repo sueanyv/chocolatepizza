@@ -56,3 +56,41 @@ logo {
   position: absolute;
 
 }
+#ingrd-list1 {
+  z-index: 100;
+  position: absolute;
+  font-family: cursive;
+  font-size: 24px;
+  top: 5%;
+  left: 5%;
+}
+
+#ingrd-list2 {
+  z-index: 100;
+  position: absolute;
+  left: 49%;
+  font-family: cursive;
+  font-size: 24px;
+  top: 5%;
+}
+
+#footer {
+  margin-top: 10%;
+  text-align: center;
+}
+#aboutAuthor {
+  margin-top: 35%;
+}
+
+#best {
+  font-size: 10px;
+  color: gray;
+}
+
+ingrd-list li:before {
+  content:'[add icon symbol here]';
+}
+
+.ingredients {
+  list-style-type: none;
+}
