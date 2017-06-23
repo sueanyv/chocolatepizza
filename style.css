@@ -1,0 +1,96 @@
+body {
+  width: 960px;
+  margin: auto;
+}
+
+h1{
+  font-family: 'Oswald', sans-serif;
+}
+
+
+hr {
+  height: 14px;
+  width: 960px;
+  border: 0;
+  box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+#logo-list ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: none;
+}
+
+#logo-list li {
+  display: inline;
+  padding: 3px;
+  float: right;
+}
+
+#logo-list li a {
+  display: block;
+  color: none;
+  text-align: center;
+}
+logo {
+  padding-right: 50px;
+  float: left;
+}
+
+#del {
+  display: inline;
+  clear: right;
+  font-size: 40px;
+  font-family: 'Yellowtail', cursive;
+}
+
+#recipe-list {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: 25px;
+}
+
+#list-bg {
+  position: absolute;
+
+}
+#ingrd-list1 {
+  z-index: 100;
+  position: absolute;
+  font-family: cursive;
+  font-size: 24px;
+  top: 5%;
+  left: 5%;
+}
+
+#ingrd-list2 {
+  z-index: 100;
+  position: absolute;
+  left: 49%;
+  font-family: cursive;
+  font-size: 24px;
+  top: 5%;
+}
+
+#footer {
+  margin-top: 10%;
+  text-align: center;
+}
+#aboutAuthor {
+  margin-top: 35%;
+}
+
+#best {
+  font-size: 10px;
+  color: gray;
+}
+
+ingrd-list li:before {
+  content:'[add icon symbol here]';
+}
+
+.ingredients {
+  list-style-type: none;
+}
